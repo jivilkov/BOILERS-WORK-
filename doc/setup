@@ -1,0 +1,36 @@
+$ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+$ nvm install 14.15.1
+
+
+# setup bootstrap
+https://bootrails.com/blog/rails-bootstrap-tutorial
+
+
+# setup font-awesome
+https://dev.to/yarotheslav/how-to-install-fontawesome-with-yarn-and-webpacker-in-rails-6-2k62
+
+
+
+
+
+
+#setup select2
+$yarn add jquery select2
+
+#in view:
+<select class="js-states" name="state">
+  <option value="AL">Alabama</option>
+   ...
+  <option value="WY">Wyoming</option>
+</select> 
+
+
+#in packs/apllication.js
+import $ from 'jquery'
+import 'select2'
+import 'select2/dist/css/select2.css'
+
+window.addEventListener('DOMContentLoaded', () => {
+  $('.js-states').select2()
+})
+

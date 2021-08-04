@@ -53,3 +53,5 @@ gem 'cancancan'
 gem 'rolify'
 
 gem "chartkick"
+
+gem "select2-rails"

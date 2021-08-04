@@ -1,3 +1,5 @@
+<%= line_chart  [[1,2], [2,3]] %>
+
 <ul>
   <% if user_signed_in? %>
     <li><%= link_to "My Profile", edit_user_registration_path%> </li>
@@ -7,7 +9,6 @@
     <li><%= link_to "Sign in", new_user_session_path%> </li>
   <% end %>
 </ul>
-
 
 <div class="collapse" id="navbarToggleExternalContent">
   <div class="bg-dark p-4">
@@ -37,3 +38,7 @@
     </div>
   </section>
 </main>
+
+<hr>
+
+

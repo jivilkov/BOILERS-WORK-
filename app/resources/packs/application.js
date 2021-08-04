@@ -13,3 +13,4 @@ Turbolinks.start()
 ActiveStorage.start()
 
 import '../js/bootstrap_js_files.js'
+import "chartkick/chart.js"
